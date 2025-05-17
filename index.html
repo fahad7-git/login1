@@ -2,13 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/Pk-PMjKpFcRBNiQedY97bQo3hQ6q3qq3BPxhvrTvVM0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nb2FpLmNvbS9v/c3MvaWNvbnMvMjAy/MS8xMi8wMi9hMWJX/aGVLUTRFeDNpLVUu/cG5n" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beast4u</title>
+    <meta name="description" content="Beast4u - Your go-to platform for all things tech and lifestyle." />
+    
+    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/Pk-PMjKpFcRBNiQedY97bQo3hQ6q3qq3BPxhvrTvVM0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nb2FpLmNvbS9v/c3MvaWNvbnMvMjAy/MS8xMi8wMi9hMWJX/aGVLUTRFeDNpLVUu/cG5n" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+      .social-icons {
+        position: fixed;
+        bottom: 4px;
+        right: 102px;
+        display: flex;
+        gap: 12px;
+      }
+      
+      .instagram-icon {
+        font-size: 24px;
+        background: linear-gradient(45deg, rgba(245, 3, 3, 0.784), rgb(255, 0, 170));
+        -webkit-background-clip: text;
+        color: transparent;
+        transition: opacity 0.3s ease;
+      }
+
+      
+      .linkedin-icon {
+        font-size: 24px;
+        color: #0022ff;
+        transition: color 0.3s ease;
+      }
+      
+      .social-icons a:hover {
+        opacity: 0.8;
+      }
+    </style>
   </head>
+  
   <body>
     <div id="root"></div>
+
+    
+    <div class="social-icons">
+      <a href="https://www.instagram.com/fahaddd___7/" target="_blank">
+        <i class="fab fa-instagram instagram-icon"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/fahad-mahfooz-5707862ba/" target="_blank">
+        <i class="fab fa-linkedin linkedin-icon"></i>
+      </a>
+    </div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-
