@@ -8,10 +8,10 @@ const Users = ({ users = [], setUsers }) => {
   console.log("Current users:", users);
 
   return (
-    <div className="absolute left-[78%] top-[30%] max-w-sm mx-8 p-4 text-white rounded-lg shadow-xl bg-gradient-to-br from-blue-800 via-purple-700 to-pink-600">
+    <div className="relative w-full max-w-md mx-auto p-4 text-white rounded-lg shadow-xl bg-gradient-to-br from-blue-800 via-purple-700 to-pink-600">
       <h2 className="text-2xl font-bold mb-4 text-center">User List</h2>
 
-      <div className="max-h-80 overflow-auto">
+      <div className="m">
         {users.length > 0 ? (
           <ul className="space-y-2">
             {users.map((user) => (
