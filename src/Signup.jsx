@@ -31,7 +31,7 @@ const Signup = ({ onSignIn, setUsers, users }) => {
           {...register("email", { required: "Email is required" })}
           type="email"
           placeholder="Enter your email address"
-          className="w-90 p-3 border-b border-white bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-green-300"
+          className="w-full p-3 border-b border-white bg-transparent text-white focus:outline-none focus:ring-5z focus:ring-green-300"
         />
         {errors.email && <div className="text-red-400 text-sm">{errors.email.message}</div>}
 
