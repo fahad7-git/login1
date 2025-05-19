@@ -29,7 +29,7 @@ const Signin = ({ onSignUp, users }) => {
             {...register("email", { required: "Email is required" })}
             type="email"
             placeholder="Enter your email"
-            className="w-90 p-3 border-b border-white bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-blue-300"
+            className="w-full p-3 border-b border-white bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-blue-300"
           />
           <p className="text-red-400 text-sm min-h-[16px]">{errors.email?.message}</p>
         </div>
